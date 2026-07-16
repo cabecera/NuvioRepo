@@ -72,6 +72,8 @@ Instala en este orden — generales primero, luego los específicos de Latino:
   `https://raw.githubusercontent.com/KennethJYS/Nuvio-Providers-Latino/refs/heads/main/manifest.json`
 - Plugin Latino (Adrianjael):
   `https://raw.githubusercontent.com/adrianjael/pluggin-latino/refs/heads/main/manifest.json`
+- Plugin Anime
+  `https://pigamer37.alwaysdata.net/configure`
 
 ### Aggregador con debrid (recomendado si vas a usar TorBox/RealDebrid)
 - **AIOStreams** (Stremio, con catálogo) — genera tu propia instancia en el
