@@ -28,7 +28,9 @@ Si no quieres configurar addon por addon manualmente, hay wizards que arman
 todo de una vez:
 
 - Auto-setup de Nuvio: https://latinokodi.site/nuvio-autosetup/
+  - Entrega catalogo, addon de torrentio y pluggins   
 - Wizard genérico Stremio/Nuvio: https://numb3rs.stream/wizard/
+- Despues para catálogo: https://xperience-app.com/
 
 Si usas uno de estos, puedes saltarte los pasos 3-5 y pasar directo al 6.
 
@@ -84,7 +86,6 @@ Instala en este orden — generales primero, luego los específicos de Latino:
 
 - **TorBox** — https://torbox.app/dashboard (de pago, revisa planes en el sitio)
   - CDN Selection: déjalo en "Auto" salvo que tengas problemas de velocidad
-    (ver hilo: https://www.reddit.com/r/TorBoxApp/comments/1udh5jl/cdn_selection_back_to_auto/)
 - Conecta tu cuenta de TorBox dentro de AIOStreams (paso 4) y dentro de
   Nuvio (Settings → Integrations → Connected Services)
 
@@ -132,9 +133,11 @@ de las demás antes de continuar, para evitar conflictos de sincronización.
 ## 9. Badges (decorar los resultados de streams)
 
 - Crear tu propio set de badges: https://nintle.github.io/Badger/
-- Fuentes/presets ya armados: https://latinokodi.site/badges/
+- Fuentes/presets ya armados: https://latinokodi.site/badges3/
 - Pegar la URL resultante en: Nuvio → Settings → Integrations → Connected
-  Services → **Fusion badge URLs** → Import
+
+<img width="1722" height="247" alt="image" src="https://github.com/user-attachments/assets/43902326-2f00-45d2-932c-bb136bdb50b2" />
+
 
 ### Posters con rating (opcional)
 - RatingPosterDB — regístrate en ratingposterdb.com para tu propia API key
@@ -148,6 +151,8 @@ de las demás antes de continuar, para evitar conflictos de sincronización.
   https://stremio-addon-manager.vercel.app/
 - **M3U / TV en vivo** — addon genérico donde pegas tu propia URL de lista
   M3U (ej. una pública como iptv-org) y opcionalmente un EPG
+  https://stiptv.ddns.me/eyJwcm92aWRlciI6ImRpcmVjdCIsIm0zdVVybCI6Imh0dHBzOi8vaXB0di1vcmcuZ2l0aHViLmlvL2lwdHYvaW5kZXgubTN1IiwiZW5hYmxlRXBnIjpmYWxzZSwicHJlc2NhbiI6eyJlbnRyaWVzIjoxMDg2MiwiYXBwcm94VHYiOjEwNzUxLCJhcHByb3hNb3ZpZXMiOjExMSwiZXBnUHJvZ3JhbW1lcyI6MCwiZXBnQ2hhbm5lbHMiOjB9LCJpbnN0YW5jZUlkIjoiOGFmZDM0NTQtNjYyOS00YmE3LWE3ZWMtMDc3ZWY3OWUzNTBjIn0/configure
+  
 - **CloudStream** (alternativa Android nativa, no depende de Stremio):
   - Guía: https://www.youtube.com/watch?v=bplbtMECbMg
   - Repositorios: https://cloudstreamrepo.com/
@@ -157,22 +162,3 @@ de las demás antes de continuar, para evitar conflictos de sincronización.
 
 ---
 
-## Checklist rápido de orden
-
-- [ ] 1. Instalar Stremio y/o Nuvio
-- [ ] 2. (Opcional) correr un auto-setup
-- [ ] 3. Instalar addon de metadatos (AIOMetadata)
-- [ ] 4. Instalar addons de streams (generales + Latino + AIOStreams/Meteor)
-- [ ] 5. Configurar debrid (TorBox) y conectarlo a los addons
-- [ ] 6. Instalar addon de subtítulos (Subsense)
-- [ ] 7. Conectar Trakt en todos lados con la misma cuenta
-- [ ] 8. (Opcional) instalar colecciones/catálogos community
-- [ ] 9. (Opcional) configurar badges
-- [ ] 10. Ordenar addons y ajustar extras (M3U, CloudStream, etc.)
-
----
-
-⚠️ **Nunca subas a un repo público:** contraseñas de tus cuentas, tokens/API
-keys reales, ni las URLs completas de tus instancias personales de
-AIOStreams/AIOMetadata/MyTrakt Sync (esas URLs incluyen un UUID que funciona
-como contraseña de acceso a tu configuración).
